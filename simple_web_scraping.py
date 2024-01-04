@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-# very simple web scraping script to get started
+# very simple web scraping script
 # directly from online tutorial: https://www.youtube.com/watch?v=QhD015WUMxE
 
 page_to_scrape = requests.get("https://quotes.toscrape.com/")
